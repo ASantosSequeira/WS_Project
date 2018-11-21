@@ -1,0 +1,5 @@
+PREFIX CarOnt:<http://www.w3.org/2002/07/owl#Thing>
+INSERT
+{ 
+  <http://example/car1> CarOnt:Brant "VW" .
+}

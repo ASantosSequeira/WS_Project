@@ -1,0 +1,6 @@
+PREFIX owl:<http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX CarOnt:<http://www.w3.org/2002/07/owl#Thing>
+INSERT distinct ?brand ?a {
+  ?car CarOnt:hasBrand ?brand
+}
